@@ -10,7 +10,7 @@ Events.on(EventType.ClientLoadEvent, cons(load => {
         
         })).width(50).height(50).name("admin button");
         
-        table.top().marginLeft(1100);
+        table.top().marginLeft(900);
     }));
 }));
 
@@ -22,7 +22,7 @@ function generate_and_send() {
           rgbhex+=hexref[Mathf.floor(Mathf.random() * 16)];
        };
     let rand = Mathf.ceil(Mathf.random()*1000);
-    msg+=rgbhex + "]" + ((rand == 1) ? "": "");
+    msg+=rgbhex + "]" + ((rand == 1) ? "": "☠️");
     };
     Call.sendChatMessage(msg);
 };
