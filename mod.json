@@ -1,8 +1,8 @@
 {
-	"name": "skull-icon-in-chat",
-	"displayName": "Skull button",
+	"name": "screaminb",
+	"displayName": "AAAAAAAA",
 	"author":"NothingImportant",
-	"description": "Adds a button that sends colorful skull icons in chat",
+	"description": "Adds a button that screams for you",
 	"version": "1.4",
 	"minGameVersion": 140,
 	"hidden": true
