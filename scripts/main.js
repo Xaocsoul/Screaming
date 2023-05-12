@@ -1,6 +1,6 @@
 var rgbhex = "";
 var msg = "";
-const hexref = ["f", "f", "f", "f", "f", "f", "f", "8", "f", "f", "f", "f", "f", "f", "f", "f"];
+const hexref = ["f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f"];
 
 Events.on(EventType.ClientLoadEvent, cons(load => {
     Vars.ui.hudGroup.fill(cons(table => {
